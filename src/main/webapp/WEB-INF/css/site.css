@@ -15,18 +15,41 @@
     border-color: #2b3761;
     color: #DDDDDD;
 }
-  
-.listing {
-    padding-left: 30px;
+
+footer.container {
     padding-top: 20px;
+    text-align: center;
 }
-.record {    
+
+.jumbotron {
+    padding-top:80px;
+}
+
+a {
+    color: #246aa3;
+}
+
+div.container {
+    padding-bottom: 20px;
+}
+
+body {
     font-family: "Open Sans",sans-serif;
     color: #333;
     text-rendering: optimizeLegibility;
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
 }
+
+.listing {
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+.record {
+
+}
+
 .heading {    
     font-family: "Open Sans",sans-serif;
     font-weight:300;
