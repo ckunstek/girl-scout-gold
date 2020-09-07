@@ -1,0 +1,8 @@
+version: "2"
+
+services:
+  girl-scout-gold:
+    build: .
+  ports:
+    21888:8085
+    
