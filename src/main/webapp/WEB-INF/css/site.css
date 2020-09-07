@@ -1,0 +1,39 @@
+.nav-bg-color {
+    background-color: #195556;
+}
+.header-bg-color {
+    background-color: #b4cfce;
+}
+.secondary-bg-color {
+    background-color: #7DBFBD;
+}
+.body-bg-color {
+    background-color: #FAF8E7;
+}
+.btn-primary {
+    background-color: #2b3761;
+    border-color: #2b3761;
+    color: #DDDDDD;
+}
+  
+.listing {
+    padding-left: 30px;
+    padding-top: 20px;
+}
+.record {    
+    font-family: "Open Sans",sans-serif;
+    color: #333;
+    text-rendering: optimizeLegibility;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+.heading {    
+    font-family: "Open Sans",sans-serif;
+    font-weight:300;
+    font-size:2rem;
+    margin-bottom:2rem;
+    color: #333;
+    text-rendering: optimizeLegibility;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
