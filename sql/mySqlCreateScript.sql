@@ -15,9 +15,10 @@ CREATE TABLE `contact` (
 ) ENGINE=InnoDB AUTO_INCREMENT=25 DEFAULT CHARSET=utf8
 
 CREATE TABLE `site` (
-  `site_id` int NOT NULL,
-  `url` varchar(200) NOT NULL,
+  `site_id` int NOT NULL AUTO_INCREMENT,
+  `url` varchar(2000) NOT NULL,
   `title` varchar(100) NOT NULL,
   `summary` varchar(1000) NOT NULL,
   PRIMARY KEY (`site_id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
