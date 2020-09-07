@@ -29,10 +29,9 @@ public class MvcConfiguration extends WebMvcConfigurerAdapter {
      
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
-        registry.addResourceHandler("/resources/**").addResourceLocations("/resources/");
-        registry.addResourceHandler("/css/**")
-                .addResourceLocations("/WEB-INF/css/");
-
+        registry.addResourceHandler("/resources/**").addResourceLocations("/resources/");        
+        registry.addResourceHandler("/css/**").addResourceLocations("/WEB-INF/css/");
+        
     }
  
     @Bean
@@ -49,5 +48,10 @@ public class MvcConfiguration extends WebMvcConfigurerAdapter {
     @Bean
     public ContactDAO getContactDAO() {
         return new ContactDAOImpl(getDataSource());
+    }
+     
+    @Bean
+    public SiteDAO getSiteDAO() {
+        return new SiteDAOImpl(getDataSource());
     }
 }

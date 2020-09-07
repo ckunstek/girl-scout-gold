@@ -17,23 +17,13 @@
 
 			<div class="container">
 				<div class="row">
-					<c:forEach var="contact" items="${listContact}" varStatus="status">
+					<c:forEach var="site" items="${listSite}" varStatus="status">
 						<div class="col-md-4 listing">
 							<div class="record">
-								<div><b>${contact.name}</b></div>
-								<div>${contact.address}</div>
-								<div>${contact.city}, ${contact.state} ${contact.zip}</div>
-								<div>Phone: ${contact.telephone}</div>
-								<c:if test="${not empty contact.emergency}">
-								<div>Emergency: ${contact.emergency}</div>
-								</c:if>
-								<c:if test="${not empty contact.email}">
-								<div>Email: <a href="mailto:${contact.email}">${contact.email}</a></div>
-								</c:if>
-								<c:if test="${not empty contact.website}">
-									<div class="small-space"></div>
-									<div><a class="btn btn-secondary" href="${contact.website}" role="button">View details &raquo;</a></div>
-								</c:if>
+								<div><b>${site.title}</b></div>
+								<div>${site.summary}</div>
+								<div class="small-space"></div>
+								<div><a class="btn btn-secondary" href="${site.url}" role="button">View details &raquo;</a></div>
 							</div>
 						</div>
 					</c:forEach>	

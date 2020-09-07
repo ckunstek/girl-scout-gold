@@ -46,6 +46,10 @@ body {
     padding-top: 20px;
 }
 
+.small-space {
+    min-height: 10px;
+}
+
 .record {
 
 }
