@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.girlscoutgold</groupId>
-	<artifactId>spring</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<name>demo</name>
+	<artifactId>girlscoutgold</artifactId>
+	<version>0.0.1</version>
+	<name>GirlScoutGold</name>
 	<description>Girl Scout 2020 Gold Project</description>
 
 	<properties>

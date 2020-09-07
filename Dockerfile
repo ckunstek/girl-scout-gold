@@ -7,5 +7,5 @@ RUN mvn package
 
 FROM openjdk:8-jre-alpine
 WORKDIR /app
-COPY --from=MAVEN_BUILD /build/target/spring-0.0.1-SNAPSHOT.jar /app/
-ENTRYPOINT ["java", "-jar", "spring-0.0.1-SNAPSHOT.jar"]
+COPY --from=MAVEN_BUILD /build/target/girlscoutgold-0.0.1.jar /app/
+ENTRYPOINT ["java", "-jar", "girlscoutgold-0.0.1.jar"]
