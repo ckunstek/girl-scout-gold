@@ -4,5 +4,4 @@ services:
   girl-scout-gold:
     build: .
   ports:
-    21888:8085
-    
+    - 21888:8085
