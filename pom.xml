@@ -10,6 +10,7 @@
 	</parent>
 	<groupId>com.girlscoutgold</groupId>
 	<artifactId>girlscoutgold</artifactId>
+	<packaging>war</packaging>
 	<version>0.0.1</version>
 	<name>GirlScoutGold</name>
 	<description>Girl Scout 2020 Gold Project</description>
