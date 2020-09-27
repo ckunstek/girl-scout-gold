@@ -14,10 +14,10 @@
           <a class="nav-link" href="/resource">Resources</a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link" href="#">Contribute</a>
+          <a class="nav-link" href="/contribute">Contribute</a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link" href="#">About</a>
+          <a class="nav-link" href="/about">About</a>
         </li>
       </ul>
     </div>
