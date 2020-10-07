@@ -17,9 +17,11 @@
 
 			<div class="container">
                 <h1>About</h1>
-                This website was built for Cloee Kunstek’s 2020 Girl Scout Gold Award. According to the Girl Scout website, the “Gold Award Girl Scouts are the dreamers and the doers who take “make the world a better place” to the next level. The Girl Scout Gold Award is the mark of the truly remarkable—proof that not only can she make a difference, but that she already has.” 
+                The <a href="https://en.wikipedia.org/wiki/Gold_Award_(Girl_Scouts_of_the_USA)">Gold Award</a> is the greatest award a Girl Scout can receive. Comparable to the Eagle Award, the Gold Award is the pinnacle of a Girl Scout’s career and requires days of work and years of preparation. According to the Girl Scout website, the “Gold Award Girl Scouts are the dreamers and the doers who take “make the world a better place” to the next level. 
                 <br></br>
-                This Gold Award is meant to help people suffering because of COVID-19.
+				This website was built for Cloee Kunstek’s 2020 Girl Scout Gold Award. Cloee Kunstek is currently a senior enrolled in Carmel High School and an Ambassador for Girl Scouts. For her Gold Award, Cloee wanted to create a website for people experiencing mental health issues during the Coronavirus pandemic that could continue to be updated and helpful for as long as it’s needed. This website is a database containing helpful resources for people seeking mental relief and assistance.
+				<br></br>
+				If any Girl Scouts would like to contribute to this website as part of their Gold Award or community hours, please reach out via the <a href="/contribute">contribute page</a>.
 
 			</div>
 
