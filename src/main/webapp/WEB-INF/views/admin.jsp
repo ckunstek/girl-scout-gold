@@ -11,7 +11,7 @@
     <body>
     	<div align="center">
 	        <h1>Contact List</h1>
-	        <h3><a href="newContact">New Contact</a></h3>
+	        <h3><a href="/admin/newContact">New Contact</a></h3>
 	        <table border="1">
 	        	<th>No</th>
 	        	<th>Name</th>
@@ -38,9 +38,9 @@
 					<td>${contact.emergency}</td>
 					<td>${contact.website}</td>
 					<td>
-						<a href="editContact?id=${contact.id}">Edit</a>
+						<a href="/admin/editContact?id=${contact.id}">Edit</a>
 						&nbsp;&nbsp;&nbsp;&nbsp;
-						<a href="deleteContact?id=${contact.id}">Delete</a>
+						<a href="/admin/deleteContact?id=${contact.id}">Delete</a>
 					</td>
 							
 	        	</tr>

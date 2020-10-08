@@ -11,7 +11,7 @@
 <body>
 	<div align="center">
 		<h1>New/Edit Contact</h1>
-		<form:form action="saveContact" method="post" modelAttribute="contact">
+		<form:form action="/admin/saveContact" method="post" modelAttribute="contact">
 		<table>
 			<form:hidden path="id"/>
 			<tr>
